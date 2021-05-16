@@ -1,0 +1,11 @@
+We covered a lot in this session. We started with understanding the K-Means intuitively by grouping the 10 random points in 2 clusters.
+
+The algorithm begins with choosing K random cluster centres. 
+
+Then the 2 steps of Assignment and Optimisation continue iteratively till the clusters stop updating. This gives you the most optimal clusters — the clusters with minimum intra-cluster distance and maximum inter-cluster distance. 
+
+You also saw the different practical issues that need to be considered while employing clustering to your data set. You need to choose how many clusters you want to group your data points into. Secondly, the K-means algorithm is non-deterministic. This means that the final outcome of clustering can be different each time the algorithm is run even on the same data set. This is because, as you saw, the final cluster that you get can vary by the choice of the initial cluster centres.
+
+You also saw that the outliers have an impact on the clusters and thus outlier-infested data may not give you the most optimal clusters. Similarly, since the most common measure of the distance is the Euclidean distance, you would need to bring all the attributes into the same scale using standardisation.
+
+You also saw that you cannot use categorical data for the K-Means algorithm. There are other customised algorithms for such categorical data.
