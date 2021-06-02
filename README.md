@@ -1,6 +1,6 @@
 # Machine-Learning
 
-### You can immediately start work on these notebooks without having the need to setup your environment using Google Colab.
+### You can immediately start working on these notebooks without having the need to setup your environment using Google Colab.
 
 
 
